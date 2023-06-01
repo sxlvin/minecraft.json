@@ -1,0 +1,14 @@
+{
+  "name": "tresunklrs",
+  "version": "1.0.0",
+  "description": "This is for the TresUnklrs Server",
+  "main": "file_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salvin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
