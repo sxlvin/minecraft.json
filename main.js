@@ -52,5 +52,3 @@ client.on("messageCreate", (message) => {
 
 //used to connect the code to to the bot
 client.login(config.token);
-
-console.log("Haren")
