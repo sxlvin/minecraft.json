@@ -1,6 +1,6 @@
 
 //const's for fetching discord.js
-const { Client, Events, GatewayIntentBits } = require('discord.js');
+const { Client, Events, GatewayIntentBits, SlashCommandSubcommandGroupBuilder } = require('discord.js');
 const { GetBread, GetCake, GetCookie, GetGoldenApple } = require('./food.js')
 const GetFood = require("./help.js")
 const config = require("./config.json")
@@ -53,3 +53,4 @@ client.on("messageCreate", (message) => {
 //used to connect the code to to the bot
 client.login(config.token);
 
+console.log("Haren")
